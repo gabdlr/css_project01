@@ -1,0 +1,15 @@
+footer {
+    float: none;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    background: $grisOscuro;
+    color: white;
+    padding: 15px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 8px;
+    .center {
+        text-align: center;
+    }
+}

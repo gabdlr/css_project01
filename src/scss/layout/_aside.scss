@@ -1,0 +1,97 @@
+#content {
+    width: 1250px;
+    margin: 0px auto;
+    aside {
+        width: 200px;
+        margin: 30px;
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 2px #ccc;
+        font-family: sans-serif, arial, helvetica;
+        float: left;
+
+        .widget{
+        display: block;
+        width: 180px;
+        margin: 5px auto;
+        padding: 8px 10px;
+        font-size: 14px;
+        border-bottom: 1px dashed #333;
+            &:last-child {
+                margin-bottom: 20px;
+            }
+        }
+
+        /*Heading font color for sub-menus in aside section*/
+        #login {
+            @include asideHeading(#000);
+        }
+        #aula_virtual1 {
+            @include asideHeading(#0c73f2);
+        }
+        #aula_virtual2 {
+            @include asideHeading(#9b2422);
+        }
+        #enlaces_interes {
+            @include asideHeading(#000);
+        }
+
+        form {   
+            input[type="text"], input[type="password"] {
+            border: 1px solid #c9c9c9;
+            box-shadow: 0px 0px 2px #ccc inset;
+            padding: 2px 1px;
+            color: gray;
+            transition: all 0.3s;
+            &:focus {
+                outline: none;
+                border: 1px solid $verde;
+                color: black;
+                }
+            }
+            input[type="text"], input[type="password"], label {
+                display: block;
+                width: 95%;
+                margin: 2px 0px;
+            }
+            button {
+                display: block;
+                color: white;
+                border-radius: 2px;
+                margin: 5px 0px 10px 0px;
+                width: 60px;
+                padding: 3px;
+                background-color: $verde;
+                border: 1px solid green;
+                cursor: pointer;
+                &:hover {
+                    box-shadow: 0px 0px 2px gray;
+                }
+                &:active {
+                    box-shadow: 0px 0px 3px rgb(128, 128, 128) inset;
+                    text-shadow: 0px 0px 1px #ccc;
+                }
+            }            
+        }
+        a {
+            display: block;
+            color: darken($verde, 2);
+            text-decoration: none;
+            margin-bottom: 2px;
+            &:hover {
+                color: darken($verde, 10)
+            }
+            &:last-of-type {
+                margin-bottom: 10px;
+            }
+        }
+        ul {
+            padding: 0px;
+            li {
+                margin-top: 8px;
+                list-style: square;
+                margin: 8px 20px 20px;
+            }
+        }
+    }
+}

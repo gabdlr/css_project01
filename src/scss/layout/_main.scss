@@ -1,0 +1,72 @@
+main {
+    section {
+        width: 75%;
+        float: right;
+        font-family: sans-serif, Arial, Helvetica;
+        margin-top: 40px;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 0px 4px #c9c9;
+        &:last-of-type {
+            margin-bottom: 40px;
+        }
+        .titulo {
+            font-size: 24px;
+            font-weight: normal;
+            letter-spacing: 1px;
+            text-align: center;
+            margin-bottom: 5px;
+            font-family: 'FjallaOne';
+            padding-top: 20px;
+            padding-bottom: 10px;
+            margin-top: -20px;
+            border-bottom: 1px solid #ccc;
+        }
+        article {
+            margin: 20px 10px;
+            position: relative;
+            p {
+                color: #333333;
+                font-size: 16px;
+                overflow: hidden;
+                line-height: 24px;
+            }
+            .date {
+                color: gray;
+                font-size: 14px;
+            }
+            .icon {
+                font-family: 'Websymbols';
+                float: left;
+                margin-right: 5px;
+            }
+            a {
+                color: darken($verde, 2);
+                text-decoration: none;
+                margin-bottom: 2px;
+                &:hover {
+                    color: darken($verde, 10)
+                }
+                &:last-of-type {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .stickers {
+            .sticker-r {
+                position: absolute;
+                z-index: 0;
+                margin-top: -40px;
+
+            }
+            .sticker-l {
+                position: absolute;
+                z-index: 0;
+                left: 1245px;
+                margin-top: -40px;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,30 @@
+#header {
+    min-width: 1024px;
+    width: 100%;
+    height: 250px;
+    margin: 0px auto;
+    #logotipo {
+        width: 770px;
+        margin: 0px auto;
+        img {
+            display: block;
+            text-align: center;
+            margin: 0px auto;
+            width: 140px;
+        }
+    }
+    h1 {
+        text-align: center;
+        font-size: 40px;
+        color: $verde;
+        font-family: $nevis;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 10px;
+        text-shadow: 0px 2px 1px $grisOscuro;
+        transition: all 0.3s;
+        &:hover {
+            text-shadow: 0px 2px 1px $grisOscuro, 0px 0px 4px $verde;
+        }
+    }
+}

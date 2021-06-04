@@ -1,0 +1,14 @@
+//Base
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/mixins';
+@import 'base/utilidades';
+@import 'base/globales';
+
+//Layout
+@import 'layout/header';
+@import 'layout/navbar';
+@import 'layout/aside';
+@import 'layout/main';
+@import 'layout/footer';

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="build/img/logo.png">
+    <link rel="stylesheet" type="text/css" href="build/css/app.css">
+    <title>Proyecto 01 CSS</title>
+</head>
+<body>
+    <header id="header">
+        <div id="logotipo">
+            <picture>
+                <source srcset="build/img/logo.webp" type="image/webp">
+                <img src="build/img/logo.png" alt="logotipo">
+            </picture>
+        </div>
+        <h1>Proyecto 01 con CSS</h1>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Contenido</a></li>
+            <li><a href="#">Requerimientos</a></li>
+            <li><a href="#">Lenguajes</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Frameworks</a>
+                <ul>
+                    <li><a href="#">LESS</a></li>
+                    <li><a href="#">SASS</a></li>
+                    <li><a href="#">Bootstrap</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Instructor</a></li>
+            <li><a href="#">Reseñas</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Entrar a la web</h3>
+                <form action="">
+                    <label for="usuario">Usuario</label>
+                    <input id="usuario" type="text">
+                    <label for="password">Contraseña</label>
+                    <input id="password" type="password">
+                    <button type="submit">Entrar</button>
+                </form>
+                <a href="">Zona de alumnos</a>
+                <a href="">Zona de profesores</a>
+                <a href="">Acceso a calificaciones</a>
+            </div>
+            <div class="widget" id="aula_virtual1">
+                <h3>Aula virtual 1</h3>
+                <form action="">
+                    <label for="au1_usuario">Usuario</label>
+                    <input id="au1_usuario" type="text">
+                    <label for="au1_password">Contraseña</label>
+                    <input id="au1_password" type="password">
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+            <div class="widget" id="aula_virtual2">
+                <h3>Aula virtual 2</h3>
+                <form action="">
+                    <label for="au2_usuario">Usuario</label>
+                    <input id="au2_usuario" type="text">
+                    <label for="au2_password">Contraseña</label>
+                    <input id="au2_password" type="password">
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+            <div class="widget" id="enlaces_interes">
+                <h3>Enlaces de interés</h3>
+                    <ul>
+                        <li><a href="#">Curso de JS</a></li>
+                        <li><a href="#">Curso de PHP</a></li>
+                        <li><a href="#">Curso de C#</a></li>
+                    </ul>
+            </div>
+        </aside>
+        <main>
+            <section id="frontend">
+                <span class="stickers">
+                    <img class="sticker-r" src="build/img/scotch.png" alt="sticker">
+                    <img class="sticker-l" src="build/img/scotch.png" alt="sticker">
+                </span>
+                <h2 class="titulo">Noticias de frontend</h2>
+                <article>
+                    <span class="icon">a</span><p><a href="#">Titulo de la entrada.</a>
+                        Maecenas dictum dolor eros, ut ultrices ipsum iaculis eget. Quisque et posuere ipsum, ac auctor dolor. Fusce hendrerit
+                        felis eget dolor maximus, sed bibendum nunc fringilla. Quisque tellus ante, interdum id sem eget, blandit porta lectus.
+                        Nullam finibus massa quis mi fringilla, eget posuere tellus auctor. Integer faucibus massa sit amet ante porttitor
+                        venenatis. Donec dapibus tortor eu quam tincidunt, at elementum ligula varius
+                    </p>
+                    <span class="date">03/06/2021 [Gabriel De Los Rios]</span>
+                </article>
+                <article>
+                    <span class="icon">a</span><p><a href="#">Titulo de la entrada.</a>
+                        Maecenas dictum dolor eros, ut ultrices ipsum iaculis eget. Quisque et posuere ipsum, ac auctor dolor. Fusce hendrerit
+                        felis eget dolor maximus, sed bibendum nunc fringilla. Quisque tellus ante, interdum id sem eget, blandit porta lectus.
+                        Nullam finibus massa quis mi fringilla, eget posuere tellus auctor. Integer faucibus massa sit amet ante porttitor
+                        venenatis. Donec dapibus tortor eu quam tincidunt, at elementum ligula varius
+                    </p>
+                    <span class="date">03/06/2021 [Gabriel De Los Rios]</span>
+                </article>                
+            </section>
+            <section id="backend">
+                <span class="stickers">
+                    <img class="sticker-r" src="build/img/scotch.png" alt="sticker">
+                    <img class="sticker-l" src="build/img/scotch.png" alt="sticker">
+                </span>
+                <h2 class="titulo">Noticias de backend</h2>
+                <article>
+                    <span class="icon">a</span><p><a href="#">Titulo de la entrada.</a>
+                        Maecenas dictum dolor eros, ut ultrices ipsum iaculis eget. Quisque et posuere ipsum, ac auctor dolor. Fusce hendrerit
+                        felis eget dolor maximus, sed bibendum nunc fringilla. Quisque tellus ante, interdum id sem eget, blandit porta lectus.
+                        Nullam finibus massa quis mi fringilla, eget posuere tellus auctor. Integer faucibus massa sit amet ante porttitor
+                        venenatis. Donec dapibus tortor eu quam tincidunt, at elementum ligula varius
+                    </p>
+                    <span class="date">03/06/2021 [Gabriel De Los Rios]</span>
+                </article>
+                <article>
+                    <span class="icon">a</span><p><a href="#">Titulo de la entrada.</a>
+                        Maecenas dictum dolor eros, ut ultrices ipsum iaculis eget. Quisque et posuere ipsum, ac auctor dolor. Fusce hendrerit
+                        felis eget dolor maximus, sed bibendum nunc fringilla. Quisque tellus ante, interdum id sem eget, blandit porta lectus.
+                        Nullam finibus massa quis mi fringilla, eget posuere tellus auctor. Integer faucibus massa sit amet ante porttitor
+                        venenatis. Donec dapibus tortor eu quam tincidunt, at elementum ligula varius
+                    </p>
+                    <span class="date">03/06/2021 [Gabriel De Los Rios]</span>
+                </article>
+            </section>
+            <section id="news">
+                <span class="stickers">
+                    <img class="sticker-r" src="build/img/scotch.png" alt="sticker">
+                    <img class="sticker-l" src="build/img/scotch.png" alt="sticker">
+                </span>
+                <h2 class="titulo">Noticias miscelanea</h2>
+                <article>
+                    <span class="icon">a</span><p><a href="#">Titulo de la entrada.</a>
+                        Maecenas dictum dolor eros, ut ultrices ipsum iaculis eget. Quisque et posuere ipsum, ac auctor dolor. Fusce hendrerit
+                        felis eget dolor maximus, sed bibendum nunc fringilla. Quisque tellus ante, interdum id sem eget, blandit porta lectus.
+                        Nullam finibus massa quis mi fringilla, eget posuere tellus auctor. Integer faucibus massa sit amet ante porttitor
+                        venenatis. Donec dapibus tortor eu quam tincidunt, at elementum ligula varius
+                    </p>
+                    <span class="date">03/06/2021 [Gabriel De Los Rios]</span>
+                </article>
+                <article>
+                    <span class="icon">a</span><p><a href="#">Titulo de la entrada.</a>
+                        Maecenas dictum dolor eros, ut ultrices ipsum iaculis eget. Quisque et posuere ipsum, ac auctor dolor. Fusce hendrerit
+                        felis eget dolor maximus, sed bibendum nunc fringilla. Quisque tellus ante, interdum id sem eget, blandit porta lectus.
+                        Nullam finibus massa quis mi fringilla, eget posuere tellus auctor. Integer faucibus massa sit amet ante porttitor
+                        venenatis. Donec dapibus tortor eu quam tincidunt, at elementum ligula varius
+                    </p>
+                    <span class="date">03/06/2021 [Gabriel De Los Rios]</span>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer id="footer">
+        <p>Todos los derechos reservados &copy; 2021</p>
+        <p class="center">Gabriel De Los Rios</p>
+    </footer>
+</body>
+</html>
